@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .8)), url("/email-subs-img/background.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.hero{
+    width: auto;
+    height: 100vh;
+    margin: 10% ;
+}
+h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+form{
+    display: flex;
+    width: fit-content;
+}
+form input{
+    border: 0;
+    padding: 30px;
+    width: 400px;
+    height: 70px;
+    outline: none;
+    font-size: 20px;
+}
+form button {
+    height: 70px;
+    width: 100px;
+    background-color: #61b752;
+    border: 0;
+    cursor: pointer;
+}
+form button img{
+    width: 50px;
+    padding: 10px;
+}
+#msg{
+    color: #61b752;
+    position: relative;
+    top: 30px;
+}
